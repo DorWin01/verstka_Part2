@@ -101,7 +101,7 @@ header{
 .center-block-main{
 		margin: 0 auto; 
 		max-width: 990px;
-	}
+}
 
 	.logo{
 		float: left; 
@@ -133,7 +133,7 @@ header{
 	.content{
 	border-right: 1px solid #e1e0e0; 
 	border-left:1px solid #e1e0e0;
-}
+	}
 
 main{
 	float: left; 
@@ -199,14 +199,17 @@ article{
 		color: #339933; 
 		border-color: #339933;
 	}
+
 aside{
 	float: right; 
 	width: 28.3%; 
 	margin-top: 70px;
 }
+
 	.widget{
 		margin-bottom: 50px;
 	}
+
 	.widget h2{
 		text-transform: uppercase; 
 		color: #6c6969; 
@@ -216,6 +219,7 @@ aside{
 		font-weight: 600; 
 		margin-bottom: 20px;
 	}
+
 	.search{
 		color: #b9b9b9; 
 		font-size: 0.75em; 
@@ -224,6 +228,7 @@ aside{
 		padding: 15px 20px; 
 		border-right: none;
 	}
+
 	.widget nav{
 		margin: 0 0 0 20px;
 	}
@@ -233,6 +238,7 @@ aside{
 		width: 100%; 
 		height: 48px;
 	}
+
 	.subsribe-input{
 		color: #b9b9b9; 
 		font-size: 0.75em; 
@@ -245,6 +251,7 @@ aside{
 		left: 0; 
 		border-right: none;
 	}
+
 	.subsribe-img{
 		position: absolute; 
 		right: 20px; 
@@ -258,16 +265,20 @@ aside{
 		font-weight: 600; 
 		padding: 30px;
 	}
+
 		.pager a{
 			color:#818181; 
 			text-decoration: none;
 		}
+
 		.pager a:hover{
 			text-decoration: underline;
 		}
+
 		.previous-link{
 			float: left;
 		}
+
 		.next-link{
 			float: right;
 		}
@@ -279,6 +290,7 @@ footer{
 	font-size: 0.8125em; 
 	padding: 50px 0;
 }
+
 	footer img{
 		margin-bottom: 20px;
 	}
@@ -287,33 +299,40 @@ footer{
 	.logo{
 		margin-top: 20px;
 	}
+
 	.manu li a{
 		padding: 25px 35px;
 	}
+
 	main{
 		float: none; 
 		width: 100%; 
 		margin-top: 30px;
 	}
+
 	article header img{
 		width: 100%;
 	}
+
 	aside{
 		float: none;
 		width: 100%; 
 		margin-top: 70px;
 	}
 }
+
 @media screen and (max-width:620px){
 	.logo{
 		float: none; 
 		margin: 10px auto; 
 		display: block;
 	}
+
 	.manu{
 		float: none; 
 		width: 100%;
 	}
+	
 	.manu li a{
 		padding: 10px 35px;
 	}
